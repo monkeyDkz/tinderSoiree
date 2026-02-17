@@ -1,0 +1,24 @@
+{
+  "name": "tindersoiree",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tinder de Soirée - Application de matching pour événements",
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "lint": "pnpm -r run lint",
+    "clean": "pnpm -r run clean && rm -rf node_modules",
+    "db:migrate": "pnpm --filter backend run migration:run",
+    "db:seed": "pnpm --filter backend run seed",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
