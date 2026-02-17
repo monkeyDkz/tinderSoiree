@@ -59,6 +59,8 @@
 		AA001D1D1D1D1D1D1D1D1D1D /* OnboardingStep2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA001E1E1E1E1E1E1E1E1E1E /* OnboardingStep2View.swift */; };
 		AA001F1F1F1F1F1F1F1F1F1F /* OnboardingStep3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0020202020202020202020 /* OnboardingStep3View.swift */; };
 		AA0021212121212121212121 /* OnboardingStep4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0022222222222222222222 /* OnboardingStep4View.swift */; };
+		ZZZAAABBBCCCDDDEEEFFF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZZZAAABBBCCCDDDEEEFFF02 /* AppDelegate.swift */; };
+		ZZZAAABBBCCCDDDEEEFFF03 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZZZAAABBBCCCDDDEEEFFF04 /* NotificationService.swift */; };
 		AA0023232323232323232323 /* OnboardingStep5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0024242424242424242424 /* OnboardingStep5View.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		A726FEAF12033143BD7E1E92 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		AC81D385438B90E2A20BEF78 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		B2DD70E7098D91DA06FCC6BE /* TinderSoireeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderSoireeApp.swift; sourceTree = "<group>"; };
+		ZZZAAABBBCCCDDDEEEFFF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ZZZAAABBBCCCDDDEEEFFF04 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		B89D09CE258A3D2075723F31 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		BE36A5F204533A39AFBAC60D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		C5F64A4D4B603C6A85DE11FD /* MatchPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchPopupView.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B2DD70E7098D91DA06FCC6BE /* TinderSoireeApp.swift */,
+				ZZZAAABBBCCCDDDEEEFFF02 /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				DF12925C61B4A568C0D79070 /* MatchService.swift */,
 				1CDC898D1C634F453D04A260 /* SwipeService.swift */,
 				AA0006666666666666666666 /* UploadService.swift */,
+				ZZZAAABBBCCCDDDEEEFFF04 /* NotificationService.swift */,
 				5C2F408F324C96072693341D /* WebSocketManager.swift */,
 			);
 			path = Services;
@@ -426,6 +432,7 @@
 				8D3F39B1B7D31E21355B24F5 /* TinderSoireeApp.swift in Sources */,
 				AA0001111111111111111111 /* Theme.swift in Sources */,
 				AA0005555555555555555555 /* UploadService.swift in Sources */,
+				ZZZAAABBBCCCDDDEEEFFF03 /* NotificationService.swift in Sources */,
 				F347FAF8E840DF860478A501 /* User.swift in Sources */,
 				61CA976454BB3374019C50E8 /* WebSocketManager.swift in Sources */,
 			);

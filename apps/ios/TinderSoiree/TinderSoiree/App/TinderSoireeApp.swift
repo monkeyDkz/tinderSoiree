@@ -1,8 +1,13 @@
 import SwiftUI
+import UIKit
+import UserNotifications
 
 @main
 struct TinderSoireeApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    // Configure notifications delegate here to avoid requiring AppDelegate compilation
+    init() {
+        UNUserNotificationCenter.current().delegate = NotificationService.shared
+    }
     @StateObject private var appState = AppState()
     @StateObject private var deepLinkHandler = DeepLinkHandler()
 
